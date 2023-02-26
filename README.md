@@ -44,3 +44,8 @@ This dataset contains 19 features as fallows:
 	
 In the second version of this code, I will fulfill some of my curiocities about the music like Valences over time, Popularity vs Danceability, etc..
 
+As can be seen in the line plots, the valence (positivity) in the different songs of different artists are fluctuated over time. Moreover, there is no strong correlation between the danceability and popularity in the songs according the scatter plot.
+
+It is worth mentioning that only small portion of the data can be used in the plots and recommender function because the whole version of the data both will mess the plots and cause an error after running the cosin1e_similariity function due to the shortage of the RAM Memory.
+
+In the third version of this code, I will solve the recommendation issue using the Spotify API itself...
